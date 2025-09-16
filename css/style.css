@@ -12919,6 +12919,12 @@ ul.social {
 .hero-image-blend-overlay {
   background-blend-mode: overlay; }
 
+  @media only screen and (max-width: 768px) {
+        .hero-secondary-image {
+            background-image: none !important;
+        }
+      }
+
 html {
   scroll-behavior: smooth; }
 
